@@ -37,7 +37,7 @@ const Navbar = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/i0em21qy_techkila.jpeg" 
               alt="TechKila Logo" 
-              className="h-12 w-auto object-contain"
+              className="h-12 w-auto object-contain opacity-80"
             />
             <span className="text-xl font-bold text-gray-900">TechKila</span>
           </div>

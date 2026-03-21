@@ -20,7 +20,7 @@ const Footer = () => {
               <img 
                 src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/i0em21qy_techkila.jpeg" 
                 alt="TechKila Logo" 
-                className="h-10 w-auto object-contain bg-white rounded-lg p-1"
+                className="h-10 w-auto object-contain bg-white rounded-lg p-1 opacity-80"
               />
               <span className="text-xl font-bold">{footerData.companyName}</span>
             </div>
