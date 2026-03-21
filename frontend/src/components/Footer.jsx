@@ -1,6 +1,7 @@
 import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { footerData } from '../mock/data';
+import Logo from './Logo';
 
 const iconMap = {
   Facebook,
@@ -16,12 +17,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/i0em21qy_techkila.jpeg" 
-                alt="TechKila Logo" 
-                className="h-10 w-auto object-contain bg-white rounded-lg p-1 opacity-80"
-              />
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="bg-white rounded-lg p-1.5">
+                <Logo className="h-10 w-10" />
+              </div>
               <span className="text-xl font-bold">{footerData.companyName}</span>
             </div>
             <p className="text-gray-300 text-sm">

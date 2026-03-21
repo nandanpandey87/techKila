@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, Menu, X, Phone } from 'lucide-react';
 import { navigationLinks, contactData } from '../mock/data';
 import { Button } from './ui/button';
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,12 +34,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/i0em21qy_techkila.jpeg" 
-              alt="TechKila Logo" 
-              className="h-12 w-auto object-contain opacity-80"
-            />
+          <div className="flex items-center space-x-3">
+            <Logo className="h-12 w-12" />
             <span className="text-xl font-bold text-gray-900">TechKila</span>
           </div>
 
