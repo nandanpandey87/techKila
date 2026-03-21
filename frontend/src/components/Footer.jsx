@@ -17,9 +17,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-[#1e3a5f] font-bold text-xl">TK</span>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/i0em21qy_techkila.jpeg" 
+                alt="TechKila Logo" 
+                className="h-10 w-auto object-contain bg-white rounded-lg p-1"
+              />
               <span className="text-xl font-bold">{footerData.companyName}</span>
             </div>
             <p className="text-gray-300 text-sm">

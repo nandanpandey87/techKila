@@ -130,13 +130,13 @@ export const foundersData = {
       id: 1,
       name: 'Parth Sharma',
       role: 'Co-Founder',
-      image: 'https://images.pexels.com/photos/36053652/pexels-photo-36053652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+      image: 'https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/s4e3ids1_WhatsApp%20Image%202026-03-17%20at%2010.00.47%20PM.jpeg'
     },
     {
       id: 2,
       name: 'Nandan Pandey',
       role: 'Co-Founder',
-      image: 'https://images.pexels.com/photos/36053652/pexels-photo-36053652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+      image: 'https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/pzhc8llc_WhatsApp%20Image%202026-03-21%20at%2012.09.56%20PM.jpeg'
     }
   ]
 };

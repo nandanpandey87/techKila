@@ -34,9 +34,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-900 to-blue-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">TK</span>
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/i0em21qy_techkila.jpeg" 
+              alt="TechKila Logo" 
+              className="h-12 w-auto object-contain"
+            />
             <span className="text-xl font-bold text-gray-900">TechKila</span>
           </div>
 
