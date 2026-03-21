@@ -5,12 +5,12 @@ const Logo = ({ className = "h-12 w-12" }) => {
     <div className={`relative ${className}`}>
       {/* TechKila cloud logo with transparent background */}
       <img 
-        src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/xil1okbp_techkila.jpeg" 
+        src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/v6an3yli_WhatsApp%20Image%202026-03-21%20at%208.40.25%20PM.jpeg" 
         alt="TechKila Logo" 
-        className="w-full h-full object-contain"
+        className="w-full h-full object-contain drop-shadow-lg"
         style={{
           mixBlendMode: 'multiply',
-          filter: 'brightness(1.1) contrast(1.1)',
+          filter: 'brightness(1.05) contrast(1.15)',
         }}
       />
     </div>

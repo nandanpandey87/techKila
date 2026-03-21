@@ -87,8 +87,8 @@ export const servicesData = {
 };
 
 export const statsData = [
-  { value: 500, suffix: '+', label: 'Active Users' },
-  { value: 1200, suffix: '+', label: 'Cup of Coffee' }
+  { value: 200, suffix: '+', label: 'Active Users' },
+  { value: 500, suffix: '+', label: 'Cup of Coffee' }
 ];
 
 export const bridgingData = {

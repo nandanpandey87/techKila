@@ -30,19 +30,24 @@ const BridgingSection = () => {
             ))}
           </div>
 
-          {/* Right Side - Badge */}
+          {/* Right Side - Video */}
           <div className="flex justify-center">
             <div className="relative">
-              {/* Circular Badge */}
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-8xl font-bold text-[#1e3a5f] mb-4">
-                    {bridgingData.badge}
-                  </div>
-                  <div className="text-lg font-semibold text-gray-700">
-                    {bridgingData.badgeLabel}
-                  </div>
-                </div>
+              {/* Video Container */}
+              <div className="w-80 h-80 rounded-full overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center shadow-2xl">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover"
+                >
+                  <source
+                    src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/7zszlwva_WhatsApp%20Video%202026-03-21%20at%2012.33.13%20PM.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               {/* Decorative Ring */}
               <div className="absolute inset-0 rounded-full border-4 border-[#1e3a5f] opacity-20 animate-pulse"></div>
