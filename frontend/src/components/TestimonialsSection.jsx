@@ -17,16 +17,16 @@ const TestimonialsSection = () => {
           </h2>
         </div>
 
-        {/* Testimonials */}
-        <div className="max-w-4xl mx-auto">
+        {/* Testimonials Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonialsData.testimonials.map((testimonial) => (
             <Card
               key={testimonial.id}
-              className="bg-gray-50 border-none shadow-lg"
+              className="bg-gray-50 border-none shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <CardContent className="p-10">
+              <CardContent className="p-8">
                 {/* Rating */}
-                <div className="flex justify-center mb-6">
+                <div className="flex justify-center mb-4">
                   {[...Array(testimonial.rating)].map((_, index) => (
                     <Star
                       key={index}
@@ -36,13 +36,13 @@ const TestimonialsSection = () => {
                 </div>
 
                 {/* Content */}
-                <p className="text-lg text-gray-700 leading-relaxed text-center mb-6">
+                <p className="text-gray-700 leading-relaxed mb-6 text-center">
                   "{testimonial.content}"
                 </p>
 
                 {/* Author */}
-                <div className="text-center">
-                  <h4 className="text-xl font-bold text-gray-900">
+                <div className="text-center border-t pt-6">
+                  <h4 className="text-lg font-bold text-gray-900">
                     {testimonial.name}
                   </h4>
                   <p className="text-sm text-gray-500 mt-1">{testimonial.role}</p>

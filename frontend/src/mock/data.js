@@ -147,9 +147,23 @@ export const testimonialsData = {
   testimonials: [
     {
       id: 1,
-      name: 'Kathleen',
-      role: 'Client',
-      content: "Based on my experience as the primary contact for this project, I believe we are headed in the right direction with TechKila. It appears that the initial results are promising and are moving in the direction we anticipated. Throughout the entire meeting, TechKila's team was extremely patient and diligent in their preparation.",
+      name: 'Rajesh Kumar',
+      role: 'CEO, Digital Ventures',
+      content: "Working with TechKila has been a game-changer for our business. Their innovative approach to digital marketing and web development helped us increase our online presence by 300%. The team's dedication, expertise, and timely delivery exceeded our expectations. I highly recommend TechKila for anyone looking to transform their digital strategy.",
+      rating: 5
+    },
+    {
+      id: 2,
+      name: 'Priya Sharma',
+      role: 'Marketing Director, StartupHub',
+      content: "TechKila delivered exceptional results for our SEO and branding project. Within 3 months, we saw a 250% increase in organic traffic and significant improvement in our search rankings. Their strategic approach and attention to detail make them stand out in the industry. Truly professional and results-driven!",
+      rating: 5
+    },
+    {
+      id: 3,
+      name: 'Amit Patel',
+      role: 'Founder, EcomSolutions',
+      content: "From website development to digital advertising campaigns, TechKila has been our trusted partner. They transformed our outdated website into a modern, user-friendly platform that has doubled our conversion rates. The team's creativity and technical expertise are unmatched. Best investment we've made!",
       rating: 5
     }
   ]
