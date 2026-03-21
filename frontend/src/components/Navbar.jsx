@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <Logo className="h-12 w-12" />
+            <Logo className="h-14 w-14" />
             <span className="text-xl font-bold text-gray-900">TechKila</span>
           </div>
 
