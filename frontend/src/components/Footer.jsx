@@ -18,9 +18,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="bg-white rounded-lg p-2">
-                <Logo className="h-10 w-auto" />
-              </div>
+              <Logo className="h-10 w-auto" />
             </div>
             <p className="text-gray-300 text-sm">
               {footerData.description}
