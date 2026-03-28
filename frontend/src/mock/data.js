@@ -23,8 +23,8 @@ export const aboutData = {
   badgeSubLabel: 'EXPERIENCE',
   sectionLabel: 'About us',
   title: 'Amazing Result with TECHKILA.',
-  subtitle: 'We have 2+ Years of Experience in Digital Marketing',
-  description: 'At TechKila, we are committed to delivering amazing results for our clients. Our team of experts has extensive experience in a wide range of digital solutions, including website design and development, digital marketing, content management, search engine optimization (SEO), social media marketing, and more. We use the latest technologies and innovative strategies to help our clients succeed in the digital world.',
+  subtitle: 'TechKila is obsessed with delivering measurable, jaw-dropping results',
+  description: 'Our team brings years of hard-won experience across web design, SEO, content management, and digital marketing. We wield the latest technologies and elite strategies to secure your online success—because throwing spaghetti at the wall to see what sticks is a terrible marketing plan, and it ruins the wallpaper.',
   features: [
     'CORE LEVEL DESIGN',
     'PURE HAND WORK',
