@@ -39,7 +39,7 @@ export const aboutData = {
 export const servicesData = {
   sectionLabel: 'Services',
   title: 'Digital Agency Services',
-  description: 'TechKila is a digital marketing agency that specializes in SEO, Google Ads, and website design and development. Our team of experienced professionals is passionate about helping businesses grow online.',
+  description: 'At TechKila, we are a full-service digital agency specializing in AI Prompting, SEO, branding, and custom website design. Our experts are fiercely passionate about scaling your business online—because the only thing we love more than flawless code is watching your competitors panic ;)',
   services: [
     {
       id: 1,
