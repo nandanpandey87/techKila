@@ -114,7 +114,7 @@ export const progressData = {
   title: 'Pay for Qualified Traffic',
   description1: 'Stop funding digital experiments and invest in the proven expertise of TechKila. We deliver top-tier, scalable solutions designed to aggressively accelerate your business growth.',
   description2: 'Our seasoned professionals get it right the first time, ensuring you never pay for someone else\'s learning curve. Because good tech isn\'t cheap, and cheap tech usually ends with you frantically unplugging your router.',
-  email: 'Nandanpandey87@gmail.com',
+  email: 'Techkila@zohomail.com',
   skills: [
     { name: 'GRAPHIC DESIGN', percentage: 85 },
     { name: 'APP DEVELOPMENT', percentage: 90 },
@@ -172,7 +172,7 @@ export const testimonialsData = {
 export const contactData = {
   phone: '+91 6265358305',
   phoneLabel: 'TALK WITH US',
-  email: 'Nandanpandey87@gmail.com',
+  email: 'Techkila@zohomail.com',
   address: 'India'
 };
 
