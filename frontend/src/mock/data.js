@@ -136,7 +136,7 @@ export const foundersData = {
       id: 2,
       name: 'Parth Sharma',
       role: 'Co-Founder',
-      image: 'https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/pzhc8llc_WhatsApp%20Image%202026-03-21%20at%2012.09.56%20PM.jpeg'
+      image: 'https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/k3d059va_WhatsApp%20Image%202026-03-26%20at%2010.43.59%20PM.jpeg'
     }
   ]
 };
