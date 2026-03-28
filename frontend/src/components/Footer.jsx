@@ -17,11 +17,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="flex items-center mb-4">
               <div className="bg-white rounded-lg p-2">
-                <Logo className="h-12 w-12" />
+                <Logo className="h-10 w-auto" />
               </div>
-              <span className="text-xl font-bold">{footerData.companyName}</span>
             </div>
             <p className="text-gray-300 text-sm">
               {footerData.description}

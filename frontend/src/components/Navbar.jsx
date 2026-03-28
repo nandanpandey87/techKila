@@ -35,8 +35,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3 bg-white rounded-md px-1">
-            <Logo className="h-14 w-14" />
-            <span className="text-xl font-bold text-gray-900">TechKila</span>
+            <Logo className="h-12 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

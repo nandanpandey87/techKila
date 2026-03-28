@@ -112,8 +112,8 @@ export const bridgingData = {
 export const progressData = {
   sectionLabel: 'Business Progress',
   title: 'Pay for Qualified Traffic',
-  description1: 'Nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur.',
-  description2: 'We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.',
+  description1: 'Stop funding digital experiments and invest in the proven expertise of TechKila. We deliver top-tier, scalable solutions designed to aggressively accelerate your business growth.',
+  description2: 'Our seasoned professionals get it right the first time, ensuring you never pay for someone else\'s learning curve. Because good tech isn\'t cheap, and cheap tech usually ends with you frantically unplugging your router.',
   email: 'Nandanpandey87@gmail.com',
   skills: [
     { name: 'GRAPHIC DESIGN', percentage: 85 },

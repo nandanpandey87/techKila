@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Logo = ({ className = "h-12 w-12" }) => {
+const Logo = ({ className = "h-12 w-auto" }) => {
   return (
     <div className={`relative ${className}`}>
-      {/* TechKila cloud logo with transparent background */}
+      {/* TechKila full logo with tagline - transparent background */}
       <img 
-        src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/v6an3yli_WhatsApp%20Image%202026-03-21%20at%208.40.25%20PM.jpeg" 
-        alt="TechKila Logo" 
-        className="w-full h-full object-contain"
+        src="https://customer-assets.emergentagent.com/job_learning-code-hub/artifacts/iq18guse_IMG_3026.PNG" 
+        alt="TechKila - If its Tech, its Techkila" 
+        className="h-full w-auto object-contain"
         style={{
-          mixBlendMode: 'darken',
-          filter: 'brightness(0.95) contrast(1.2) saturate(1.1)',
+          mixBlendMode: 'multiply',
+          filter: 'brightness(1) contrast(1.05)',
           backgroundColor: 'transparent',
         }}
       />
