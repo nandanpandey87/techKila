@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = ({ className = "h-16 w-auto" }) => {
+const Logo = ({ className = "h-20 w-auto" }) => {
   return (
     <div className={`relative ${className}`}>
       {/* TechKila full logo - optimized for all devices */}
