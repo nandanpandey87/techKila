@@ -34,8 +34,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <Logo className="h-20 w-auto md:h-24 lg:h-20" />
+          <div className="flex items-center space-x-3 py-2">
+            <Logo className="h-24 w-auto md:h-28 lg:h-24" />
           </div>
 
           {/* Desktop Navigation */}
