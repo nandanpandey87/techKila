@@ -173,7 +173,7 @@ export const contactData = {
   phone: '+91 6265358305',
   phoneLabel: 'TALK WITH US',
   email: 'Techkila@zohomail.com',
-  address: 'India'
+  address: 'First floor building 9, cyber city, Gurugram, 122001'
 };
 
 export const footerData = {
